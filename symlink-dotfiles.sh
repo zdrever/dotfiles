@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dev="$HOME/Developer"
-dotfiles="$dev/rosshamish/dotfiles"
+dotfiles="$dev/zdrever/dotfiles"
 
 if [[ -d "$dotfiles" ]]; then
   echo "Symlinking dotfiles from $dotfiles"
@@ -31,5 +31,3 @@ done
 echo "Done."
 ls -al $HOME | grep -e '\..*'
 popd >> /dev/null
-
-

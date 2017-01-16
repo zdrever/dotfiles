@@ -1,6 +1,6 @@
 #!/bin/bash
 
-owner=rosshamish
+owner=zdrever
 
 dev="$HOME/Developer"
 mkdir -p $dev
@@ -103,7 +103,7 @@ if [[ $should_vim != 'n' ]]; then
   else
     apt-get install vim
   fi
-
+fi
 
 echo 'Symlink dotfiles? Itll symlink all these to your $HOME directory:'
 find $dev/$owner/dotfiles/home -mindepth 1 -maxdepth 1 -name ".*"
